@@ -1,0 +1,18 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #81D0FF;
+}
+
+.otp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
+
+.red {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}

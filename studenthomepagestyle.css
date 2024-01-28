@@ -1,0 +1,382 @@
+.title { 
+    margin: 0; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: white;
+    margin: 0px;
+}
+
+.menubar {
+    background-color: #81D0FF;
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    float: top;
+}
+
+.menubartd {
+    border-collapse: collapse;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.menubartd2 {
+    border-collapse: collapse;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+.menubartd:hover, .menubarbtn:hover {
+    border: none;
+    background-color: #42baff;
+}
+
+.menubarlink {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.notifstable {
+    background-color: #dcf2ff;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+}
+
+.reminders {
+    background-color: #dcf2ff;
+    border: none;
+    width: 800px;
+    position: relative;
+    left: -166px;
+    padding: 10px;
+}
+
+.reminders td {
+    border: none;
+    padding: 5px;
+}
+
+.menubarbtn {
+    font-size: large;
+    background-color: #81D0FF;
+    border-collapse: collapse;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.profiletable {
+    text-align: left;
+    float: left;
+    padding: 50px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+input[type=text] {
+    border: solid #81D0FF 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.profiletable td {
+    top: 0;
+}
+
+.grouping {
+    padding-bottom: 0;
+    background: #dcf2ff;
+    margin: 40px;
+}
+
+.pfp {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.scoreinput {
+    width: 50px;
+}
+
+.subjectinput {
+    width: 150px;
+}
+
+.otherinput {
+    width:200px;
+}
+
+.otherinput2 {
+    width:200px;
+    margin-top: 20px;
+}
+
+.submitbtn {
+    background-color: #81D0FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: normal;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.submitbtn2 {
+    background-color: #81D0FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: normal;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.imginput {
+    margin-bottom: 50px;
+}
+
+.uploadlist {
+    background-color: #dcf2ff;
+    margin: 30px;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+}
+
+.uploadlist2 {
+    background-color: #dcf2ff;
+    margin: 30px;
+    border-radius: 10px;
+    width: 800px;
+    padding: 20px;
+}
+
+.studentlist {
+    background-color: #dcf2ff;
+    margin: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 750px;
+    padding: 20px;
+    margin-left: 350px;
+    position: relative;
+    float: left;
+    overflow: scroll;
+}
+
+.studentdiv {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.studentdivtable {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.notifdiv {
+    background-color: #dcf2ff;
+    margin: 30px;
+    margin-right: 200px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 70px;
+    position: relative;
+    float: right;
+}
+
+.transcriptdiv {
+    background-color: #dcf2ff;
+    margin: 30px;
+    margin-right: 200px;
+    border-radius: 10px;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    margin-left: 70px;
+    position: relative;
+    float: right;
+}
+
+.remindertext {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.uploadbtn {
+    background-color: #81D0FF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: normal;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.filetitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.choosebtn {
+    margin-bottom: 10px;
+}
+
+.choosebtn {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+
+.filebar {
+    border: solid black 1px;
+    margin: 10px;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+    height: 20px;
+    background-color: white;
+}
+
+.filebar {
+    border: solid black 1px;
+    margin: 10px;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+    height: 20px;
+    background-color: white;
+    width: 400px;
+}
+
+.closeunibar {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    margin-right: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.reqdone {
+    margin-right: 10px;
+    float: right;
+}
+
+.myunititle {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+.bigtitle {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.bargraph:hover {
+    zoom: 105%;
+}
+
+.maketable {
+    border-collapse: collapse;
+}
+
+.maketable td {
+    border: solid #42baff 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+.biggertable {
+    width: 100%;
+}
+
+.tableleft {
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.addevent {
+    border: none;
+    border-radius: 20px;
+    background-color: #dcf2ff;
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    float: left;
+    text-align: center;
+}
+.addeventtable {
+    width: 100%;
+}
+.addeventtd {
+    width: 500px;
+}
+
+.calendartd {
+    float: right;
+    padding-right: 50px;
+}
+
+.addeventinput {
+    margin-left: 10px;
+    margin-top: 20px;
+}

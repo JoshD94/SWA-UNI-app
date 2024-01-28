@@ -1,0 +1,164 @@
+.title { 
+    margin: 0; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: white;
+    margin: 0px;
+}
+
+.menubar {
+    background-color: #81D0FF;
+    border-collapse: collapse;
+    border: none;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    float: top;
+}
+
+.menubartd {
+    border-collapse: collapse;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.menubartd2 {
+    border-collapse: collapse;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+.menubartd:hover, .menubarbtn:hover {
+    border: none;
+    background-color: #42baff;
+}
+
+.menubarlink {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.menubarbtn {
+    font-size: large;
+    background-color: #81D0FF;
+    border-collapse: collapse;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.uniscroll {
+    width: 800px;
+    height: 750px;
+    overflow: scroll;
+    position: relative;
+    float: left;
+    margin: 30px;
+}
+
+.unidiv {
+    height: 300px;
+    margin: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.info {
+    background-image: linear-gradient(to right ,rgba(224, 224, 224, 0.9) 50%, rgba(255, 255, 255, 0.6) 100%);
+    height: 150px;
+    position: relative;
+    bottom: -150px;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+.uniname {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.unitable {
+    height: 150px;
+}
+
+.star {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #81D0FF;
+    color: black;
+    font-weight: bold;
+    border: solid black 1px;
+}
+
+.mylistscroll {
+    width: 650px;
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    background-color: #d6f0ff;
+    border-radius: 10px;
+}
+
+.unibar {
+    border: solid black 1px;
+    margin: 10px;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 25px;
+    background-color: white;
+}
+
+.closeunibar {
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    margin-right: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.status {
+    float: right;
+    margin: 3px;
+    margin-right: 50px;
+}
+
+.myunititle {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
